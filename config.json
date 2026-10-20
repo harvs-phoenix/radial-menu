@@ -1,0 +1,217 @@
+{
+  "dock": {
+    "enabled": true,
+    "edge": "bottom",
+    "thickness": 56,
+    "bg": "#1e1e1e",
+    "fg": "#ffffff",
+    "button_bg": "#2d2d2d",
+    "button_hover": "#3d3d3d",
+    "separator_color": "#3a3a3a",
+    "opacity": 0.92,
+    "font": "Segoe UI",
+    "font_size": 9,
+    "show_open_windows": true,
+    "max_open": 25,
+    "pinned": [
+      {
+        "label": "Notepad",
+        "type": "app",
+        "target": "notepad.exe"
+      },
+      {
+        "label": "Calculator",
+        "type": "app",
+        "target": "calc.exe"
+      },
+      {
+        "label": "GitHub",
+        "type": "url",
+        "target": "https://github.com"
+      },
+      {
+        "label": "Screenshot",
+        "type": "app",
+        "target": "ms-screenclip:"
+      },
+      {
+        "label": "Clipboard",
+        "type": "hotkey",
+        "target": "ctrl+shift+v"
+      },
+      {
+        "label": "Quit Dock",
+        "type": "quit"
+      }
+    ]
+  },
+  "tutorial": {
+    "seen": false
+  },
+  "radial": {
+    "enabled": true,
+    "trigger_button": "middle",
+    "bindings": {
+      "next_page": [
+        "right"
+      ],
+      "prev_page": [
+        "left"
+      ]
+    },
+    "radius": 150,
+    "inner_radius": 52,
+    "corner_radius": 9,
+    "gap_degrees": 3.0,
+    "show_labels": true,
+    "theme": {
+      "hub": "#12141c",
+      "hub_border": "#2c3245",
+      "slice_top": "#232838",
+      "slice_bottom": "#171a26",
+      "slice_border": "#333a52",
+      "hover_top": "#5b8cff",
+      "hover_bottom": "#8b5cf6",
+      "glow": "#6d8dff",
+      "text": "#e9edf7",
+      "text_dim": "#8d95ab",
+      "accent": "#5b8cff"
+    },
+    "pages": [
+      {
+        "name": "Main",
+        "actions": [
+          {
+            "label": "Scroll Up",
+            "type": "scroll",
+            "dy": 3
+          },
+          {
+            "label": "Copy",
+            "type": "hotkey",
+            "target": "ctrl+c"
+          },
+          {
+            "label": "Right",
+            "type": "scroll",
+            "dx": 3
+          },
+          {
+            "label": "Paste",
+            "type": "hotkey",
+            "target": "ctrl+v"
+          },
+          {
+            "label": "Scroll Down",
+            "type": "scroll",
+            "dy": -3
+          },
+          {
+            "label": "Clipboard",
+            "type": "hotkey",
+            "target": "ctrl+shift+v"
+          },
+          {
+            "label": "Left",
+            "type": "scroll",
+            "dx": -3
+          },
+          {
+            "label": "Undo",
+            "type": "hotkey",
+            "target": "ctrl+z"
+          }
+        ]
+      },
+      {
+        "name": "Web & Apps",
+        "actions": [
+          {
+            "label": "GitHub",
+            "type": "url",
+            "target": "https://github.com",
+            "icon": "globe"
+          },
+          {
+            "label": "Notepad",
+            "type": "app",
+            "target": "notepad.exe"
+          },
+          {
+            "label": "Calculator",
+            "type": "app",
+            "target": "calc.exe",
+            "icon": "settings"
+          },
+          {
+            "label": "YouTube",
+            "type": "url",
+            "target": "https://www.youtube.com",
+            "icon": "play"
+          },
+          {
+            "label": "Task Manager",
+            "type": "app",
+            "target": "taskmgr.exe",
+            "icon": "terminal"
+          },
+          {
+            "label": "Lock PC",
+            "type": "hotkey",
+            "target": "win+l",
+            "icon": "lock"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Scroll Up",
+        "type": "scroll",
+        "dy": 3
+      },
+      {
+        "label": "Copy",
+        "type": "hotkey",
+        "target": "ctrl+c"
+      },
+      {
+        "label": "Right",
+        "type": "scroll",
+        "dx": 3
+      },
+      {
+        "label": "Paste",
+        "type": "hotkey",
+        "target": "ctrl+v"
+      },
+      {
+        "label": "Scroll Down",
+        "type": "scroll",
+        "dy": -3
+      },
+      {
+        "label": "Clipboard",
+        "type": "hotkey",
+        "target": "ctrl+shift+v"
+      },
+      {
+        "label": "Left",
+        "type": "scroll",
+        "dx": -3
+      },
+      {
+        "label": "Undo",
+        "type": "hotkey",
+        "target": "ctrl+z"
+      }
+    ]
+  },
+  "clipboard": {
+    "enabled": true,
+    "hotkey": "ctrl+shift+v",
+    "max_items": 200,
+    "ignore_if_contains": [],
+    "auto_paste": true
+  }
+}

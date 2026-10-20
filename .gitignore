@@ -1,0 +1,24 @@
+# --- PyInstaller output (exes ship as Release assets, not blobs) ---
+build/
+dist/
+*.spec
+
+# --- python ---
+__pycache__/
+*.py[cod]
+
+# --- logs and scratch ---
+*.log
+src_err.txt
+src_out.txt
+
+# --- test-harness backups of config.json ---
+*.testbak
+*.appbak
+*.bindbak
+*.bak
+
+# --- OS / editor noise ---
+Thumbs.db
+Desktop.ini
+.DS_Store
